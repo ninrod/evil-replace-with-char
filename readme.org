@@ -19,7 +19,7 @@ place the file in your load-path and write ~(require 'replace-with-char)~ in you
 
 * Usage
 
-This package provides the =zx= operator to transform CamelCase words into snake_case.
+This package provides an evil operator, =zx= to replace all chars of a text object with a char.
 You can customize the binding.
 
 Try using =zxiw=.
