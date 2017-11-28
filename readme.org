@@ -1,6 +1,7 @@
 * replace-with-char
 
 [[https://www.gnu.org/licenses/gpl-3.0.en.html][https://img.shields.io/badge/license-GPLv3-blue.svg]]
+[[https://travis-ci.org/ninrod/replace-with-char.svg?branch=master][https://travis-ci.org/ninrod/replace-with-char.svg?branch=master]]
 
 evil operator to replace all chars of a text object with a char.
 
