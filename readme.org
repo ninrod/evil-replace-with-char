@@ -5,9 +5,6 @@
 
 evil operator to replace all chars of a text object with a char.
 
-# [[https://travis-ci.org/ninrod/exato.svg?branch=master][https://travis-ci.org/ninrod/exato.svg?branch=master]]
-# [[https://melpa.org/#/exato][file:https://melpa.org/packages/exato-badge.svg]]
-
 * Installation
 
 place the file in your load-path and write ~(require 'replace-with-char)~ in your =~/.emacs.d/init.el=.
