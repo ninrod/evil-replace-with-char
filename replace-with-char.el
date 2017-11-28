@@ -51,7 +51,7 @@
   :type 'string
   :group 'replace-with-char)
 
-(evil-define-operator evil-operator-replace-with-char (beg end type char)
+(evil-define-operator evil-operator-replace-with-char (beg end _ char)
   :move-point nil
   (interactive "<R>"
                (unwind-protect
