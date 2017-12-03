@@ -9,17 +9,17 @@
       "[A]B"
       ("l")
       "A[B]"))
-  (ert-info ("basic zx test")
+  (ert-info ("should not change anything")
     (evil-test-buffer
-      "| ----------|"
+      "|-----------|"
       ("zxi|-")
       "|-----------|"))
-  (ert-info ("basic zx test")
+  (ert-info ("should fill with -")
     (evil-test-buffer
       "|           |"
       ("zxi|-")
       "|-----------|"))
-  (ert-info ("basic zx test")
+  (ert-info ("should replace with -")
     (evil-test-buffer
       "|4jgkjg[y]lkej|"
       ("zxi|-")
