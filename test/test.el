@@ -11,7 +11,7 @@
       "A[B]"))
   (ert-info ("basic zx test")
     (evil-test-buffer
-      "|           |"
+      "| ----------|"
       ("zxi|-")
       "|-----------|"))
   (ert-info ("basic zx test")
