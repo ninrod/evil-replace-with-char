@@ -1,7 +1,7 @@
 (require 'ert)
 (require 'evil)
 (require 'evil-test-helpers)
-(require 'replace-with-char)
+(require 'evil-replace-with-char)
 
 (ert-deftest replace-with-char-test ()
   (ert-info ("basic evil move test")

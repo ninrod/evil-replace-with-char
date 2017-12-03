@@ -1,9 +1,9 @@
-;;; replace-with-char.el --- replace chars of a text object with a char -*- lexical-binding: t -*-
+;; evil-replace-with-char.el --- replace chars of a text object with a char -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2015 by Filipe Silva (ninrod)
 
 ;; Author: Filipe Silva <filipe.silva@gmail.com>
-;; URL: https://github.com/ninrod/replace-with-char
+;; URL: https://github.com/ninrod/evil-replace-with-char
 ;; Version: 0.0.1
 ;; Package-Requires: ((evil "1.2.13") (emacs "24"))
 
@@ -40,17 +40,6 @@
 
 (require 'evil)
 
-
-(defgroup replace-with-char nil
-  "replace chars of a text object with a char."
-  :group 'replace-with-char
-  :prefix 'replace-with-char-)
-
-(defcustom replace-with-char-key (kbd "zx")
-  "Key for the replace-with-char operator."
-  :type 'string
-  :group 'replace-with-char)
-
 (evil-define-operator evil-operator-replace-with-char (beg end _ char)
   :move-point nil
   (interactive "<R>"
@@ -65,8 +54,8 @@
     (let ((s (make-string (- end beg) char)))
       (insert s))))
 
-(define-key evil-normal-state-map replace-with-char-key 'evil-operator-replace-with-char)
+(define-key evil-normal-state-map "zx" 'evil-operator-replace-with-char)
 
-(provide 'replace-with-char)
+(provide 'evil-replace-with-char)
 
-;;; replace-with-char.el ends here
+;;; evil-replace-with-char.el ends here

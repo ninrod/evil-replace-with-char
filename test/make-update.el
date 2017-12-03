@@ -1,6 +1,8 @@
 (setq package-user-dir
       (expand-file-name (format ".elpa/%s/elpa" emacs-version)))
+
 (message "installing in %s ...\n" package-user-dir)
+
 (package-initialize)
 (setq package-archives
       '(("melpa" . "http://melpa.org/packages/")

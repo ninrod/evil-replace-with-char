@@ -1,18 +1,18 @@
-* replace-with-char
+* evil-replace-with-char
 
-[[https://travis-ci.org/ninrod/replace-with-char.svg?branch=master][https://travis-ci.org/ninrod/replace-with-char.svg?branch=master]]
+[[https://travis-ci.org/ninrod/evil-replace-with-char.svg?branch=master][https://travis-ci.org/ninrod/evil-replace-with-char.svg?branch=master]]
 [[https://www.gnu.org/licenses/gpl-3.0.en.html][https://img.shields.io/badge/license-GPLv3-blue.svg]]
 
 evil operator to replace all chars of a text object with a char.
 
 * Installation
 
-place the file in your load-path and write ~(require 'replace-with-char)~ in your =~/.emacs.d/init.el=.
+place the file in your load-path and write ~(require 'evil-replace-with-char)~ in your =~/.emacs.d/init.el=.
 
 # Just use [[https://melpa.org][MELPA]]. Here's an oneliner using [[https://github.com/jwiegley/use-package][use-package]]:
 
 # #+BEGIN_SRC emacs-lisp
-#   (use-package replace-with-char :ensure t)
+#   (use-package evil-replace-with-char :ensure t)
 # #+END_SRC
 
 * Usage
@@ -37,7 +37,7 @@ Try using =zxiw=.
 - you can customize =replace-with-char='s binding as follows:
 
 #+BEGIN_SRC emacs-lisp
-  (setq replace-with-char-key (kbd "gr"))
+  (define-key evil-normal-state-map "gR" 'evil-operator-replace-with-char)
 #+END_SRC
 
 * LICENSE
