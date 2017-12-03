@@ -3,7 +3,7 @@
 (require 'evil-test-helpers)
 (require 'evil-replace-with-char)
 
-(ert-deftest replace-with-char-test ()
+(ert-deftest evil-replace-with-char-test ()
   (ert-info ("basic evil move test")
     (evil-test-buffer
       "[A]B"
