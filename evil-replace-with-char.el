@@ -40,6 +40,7 @@
 
 (require 'evil)
 
+;;;###autoload
 (evil-define-operator evil-operator-replace-with-char (beg end _ char)
   :move-point nil
   (interactive "<R>"
