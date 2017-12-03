@@ -9,6 +9,7 @@
         ("gnu" . "http://elpa.gnu.org/packages/")))
 (package-refresh-contents)
 
+;; load third party packages
 (defconst dev-packages
   '(evil evil-test-helpers))
 
