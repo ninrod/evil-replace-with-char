@@ -1,4 +1,4 @@
-;; evil-replace-with-char.el --- replace chars of a text object with a char -*- lexical-binding: t -*-
+;;; evil-replace-with-char.el --- replace chars of a text object with a char -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2015 by Filipe Silva (ninrod)
 
