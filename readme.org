@@ -2,6 +2,7 @@
 
 [[https://travis-ci.org/ninrod/evil-replace-with-char.svg?branch=master][https://travis-ci.org/ninrod/evil-replace-with-char.svg?branch=master]]
 [[https://melpa.org/#/evil-replace-with-char][file:https://melpa.org/packages/evil-replace-with-char-badge.svg]]
+[[http://stable.melpa.org/#/evil-replace-with-char][file:http://stable.melpa.org/packages/evil-replace-with-char-badge.svg]]
 [[https://www.gnu.org/licenses/gpl-3.0.en.html][https://img.shields.io/badge/license-GPLv3-blue.svg]]
 
 evil operator to replace all chars of a text object with a char.
