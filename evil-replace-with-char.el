@@ -41,6 +41,9 @@
 (require 'evil)
 
 ;;;###autoload
+(autoload 'evil-replace-with-char "evil-replace-with-char.el"
+  "provides an evil operator to replace chars of a text object with a given char." t)
+
 (evil-define-operator evil-operator-replace-with-char (beg end _ char)
   :move-point nil
   (interactive "<R>"
